@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.hero {
+  background: #0073e6;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  margin: 0 0 10px;
+  font-size: 2em;
+}
+
+.hero p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.cta {
+  background: white;
+  color: #0073e6;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.how-it-works, .next-steps, .about {
+  padding: 40px 20px;
+  background: white;
+  text-align: center;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.steps div {
+  background: #f0f8ff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 200px;
+}
+
+.pricing-table {
+  padding: 40px 20px;
+  background: #eef6ff;
+  text-align: center;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.plan {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.plan-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.price {
+  color: #0073e6;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.features li {
+  padding: 5px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #0073e6;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.highlight {
+  border: 2px solid #0073e6;
+  background: #f0f8ff;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: #ddd;
+  font-size: 14px;
+}
